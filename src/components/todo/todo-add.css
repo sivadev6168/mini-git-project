@@ -1,0 +1,39 @@
+
+.custom-button_1{
+                    display: inline-block !important;
+                    outline: none !important;
+                    cursor: pointer !important;
+                    font-size: 14px !important;
+                    line-height: 1 !important;
+                    border-radius: 500px !important;
+                    transition-property: background-color,border-color,color,box-shadow,filter !important;
+                    transition-duration: .3s !important;
+                    border: 1px solid transparent !important;
+                    letter-spacing: 2px !important;
+                    min-width: 160px !important;
+                    text-transform: uppercase !important;
+                    white-space: normal !important;
+                    font-weight: 700 !important;
+                    text-align: center !important;
+                    padding: 16px 14px 18px !important;
+                    color: #616467 !important;
+                    box-shadow: inset 0 0 0 2px #616467 !important;
+                    background-color: transparent !important;
+                    height: 48px !important;
+}
+.custom-button_1:hover{
+                        color: #fff !important;
+                        background-color: #616467 !important;
+                    }
+                .custom-box_1{
+                    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22) !important;
+                }
+
+                .custom-card_1{
+                    background-color:#F2F5F8!important;
+                    border-radius: 12px !important;
+                }
+                .custom-button_1[disabled=disabled], .custom-button_1:disabled {
+                    background-color: #616467 !important;
+                    color: rgb(148, 148, 148) !important;
+                }                
